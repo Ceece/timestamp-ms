@@ -16,10 +16,10 @@ body
                 li If it does, it returns both the Unix timestamp and the natural language form of that date.
                 li If it does not contain a date or Unix timestamp, it returns null for those properties.
         h3 Example usage:
-        a(href="/December%2015,%202015")
-            code /December%2015,%202015
+        a(href="#{appUrl}/December%2015,%202015")
+            code #{appUrl}/December%2015,%202015
         br
-        a(href="/1450137600")
-            code /1450137600
+        a(href="#{appUrl}/1450137600")
+            code #{appUrl}/1450137600
         h3 Example output:
         code { "unix": 1450137600, "natural": "December 15, 2015" }
