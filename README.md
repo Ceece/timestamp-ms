@@ -6,9 +6,9 @@ User stories:
     3. If it does not contain a date or Unix timestamp, it returns null for those properties.
 
 ## Example usage:
-[https://timestamp-ms-ceece.c9users.io/December%2015,%202015](https://timestamp-ms-ceece.c9users.io/December%2015,%202015)
+[http://ceece-timestamp-ms.herokuapp.com/December 15, 2015](http://ceece-timestamp-ms.herokuapp.com/December 15, 2015)
 
-[https://timestamp-ms-ceece.c9users.io/1450137600](https://timestamp-ms-ceece.c9users.io/1450137600)
+[http://ceece-timestamp-ms.herokuapp.com/1450137600](http://ceece-timestamp-ms.herokuapp.com/1450137600)
 
 ## Example output:
 ```
